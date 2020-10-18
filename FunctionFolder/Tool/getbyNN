@@ -1,0 +1,8 @@
+#!/bin/sh
+
+model_path = $1
+structure_path = $2
+cuda_id = $3
+export CUDA_VISIBLE_DEVICES=$cuda_id
+
+
